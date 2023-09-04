@@ -1,29 +1,26 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="./script.js"></script>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-	<h1>Feedback Form</h1>
-	<form method="post" action="#" id="form1">
-		<label for="name">Name</label>
-		<input id="name" type="text" required minlength="3" maxlength="50"><br>
-		<label for="portfolio">Portfolio</label>
-		<input id="portfolio" type="url" required ><br>
-		<label for="favColor">Favorite Color</label>
-		<input id="favColor" type="color" ><br>
-		<label for="likeness">Likeness</label>
-		<input id="likeness" type="range" minlength="1" maxlength="100" >
-		
-	</form>
-	<button type="submit" form="form1">Submit</button>
-
+    <!-- the entire body must be written by the student -->
+    <h1>Feedback Form</h1>
+    <form method="post" action="#" id="form1">
+        <label for="name">Name</label>
+        <input id="name" type="text" required minlength="3" maxlength="50"><br>
+        <label for="portfolio">Portfolio</label>
+        <input id="portfolio" type="url" required><br>
+        <label for="favColor">Favorite Color</label>
+        <input id="favColor" type="color"><br>
+        <label for="likeness">Likeness</label>
+        <input id="likeness" type="range" min="1" max="100">
+        <br>
+        <button type="submit">Submit</button>
+    </form>
 </body>
 
 </html>
